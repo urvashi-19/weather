@@ -1,0 +1,312 @@
+.body{
+  background-image:url("./bg.jpeg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:744px;
+
+}
+.cloudy{
+  background-image:url("./cloudybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:744px;
+}
+.rainy{
+  background-image:url("./rainybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:744px;
+}
+.storm{
+  background-image:url("./storm.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:744px;
+}
+.wetherBg{
+
+ padding :40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+ 
+
+}
+.btn-primary {
+  color: #212529;
+  background: #00B4CC;
+    border-color: #7cc;
+    height:55px;
+    font-size: 1.5rem;
+    
+}
+
+
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.form-control{
+  font-size: 1.5rem;
+ 
+}
+
+.wetherResultBox{
+  margin: 40px 540px;
+  height: 310px;
+  width:500px;
+}
+.icon{
+  margin-top: 2rem;
+  width:100px;
+  height:100px;
+}
+.city{
+  font-size:35px;
+}
+.temp{
+  font-size:55px;
+  font-weight:700;
+}
+
+
+@media (max-width:500px){
+  .wetherBg {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -97px;
+}
+  .wetherResultBox {
+    margin: 40px 540px;
+    height: 310px;
+    width: 500px;
+    margin-left: -39px;
+}
+.body{
+  background-image:url("./bg.jpeg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1099px;
+  width:500px;
+
+}
+.cloudy{
+  background-image:url("./cloudybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1099px;
+  width:500px;
+}
+.rainy{
+  background-image:url("./rainybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1099px;
+  width:500px;
+}
+.storm{
+  background-image:url("./storm.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1099px;
+  width:500px;
+}
+}
+@media(max-width:400px){
+  
+  .wetherBg {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -97px;
+}
+  .body{
+    background-image:url("./bg.jpeg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1399px;
+    width:500px;
+  
+  }
+  .cloudy{
+    background-image:url("./cloudybg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1099px;
+    width:500px;
+  }
+  .rainy{
+    background-image:url("./rainybg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1099px;
+    width:500px;
+  }
+  .storm{
+    background-image:url("./storm.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1099px;
+    width:500px;
+  }
+}
+@media(max-width:300px){
+  .wetherBg {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -97px;
+}
+  .body{
+    background-image:url("./bg.jpeg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1599px;
+    width:500px;
+  
+  }
+  .cloudy{
+    background-image:url("./cloudybg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1099px;
+    width:500px;
+  }
+  .rainy{
+    background-image:url("./rainybg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1099px;
+    width:500px;
+  }
+  .storm{
+    background-image:url("./storm.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:1099px;
+    width:500px;
+  }
+}
+@media (max-width:1000px) and (min-width:500px){
+  .wetherBg {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -140px;
+}
+  .wetherResultBox {
+    margin: 40px 540px;
+    height: 310px;
+    width: 500px;
+    margin-left: 175px;
+}
+.body{
+  background-image:url("./bg.jpeg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1000px;
+
+}
+.cloudy{
+  background-image:url("./cloudybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1000px;
+}
+.rainy{
+  background-image:url("./rainybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1000px;
+}
+.storm{
+  background-image:url("./storm.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1000px;
+}
+}
+@media (max-width:1500px) and (min-width:1000px){
+  .wetherBg {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -145px;
+}
+  .wetherResultBox {
+    margin: 40px 540px;
+    height: 310px;
+    width: 500px;
+    margin-left: 328px;
+}
+.body{
+  background-image:url("./bg.jpeg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1300px;
+
+}
+.cloudy{
+  background-image:url("./cloudybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1300px;
+}
+.rainy{
+  background-image:url("./rainybg.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1300px;
+}
+.storm{
+  background-image:url("./storm.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height:1450px;
+  width:1300px;
+}
+}
