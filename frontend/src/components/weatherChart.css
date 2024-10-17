@@ -1,0 +1,46 @@
+.weather-chart-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow charts to wrap onto the next line */
+  justify-content: space-between; /* Space between charts */
+  margin: -21px 0; /* Adjust margins as needed */
+  background-color: white; /* Match App background color */
+  padding: 15px; /* Padding around the chart container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+.chart-item {
+  flex: 0 0 30%; /* Each chart takes up 30% of the row, allowing three charts in the first row */
+  margin-bottom: 10px; /* Reduced space between rows */
+ 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #fff; /* White background for all charts */
+ 
+  padding: 15px; /* Padding inside the chart items */
+  height: 250px; /* Set a specific height for the charts */
+  transition: transform 0.3s;
+}
+
+.chart-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Ensure the last two charts occupy the second row */
+.single-chart {
+  flex: 0 0 48%; /* Each chart in the second row takes up nearly half the width */
+  margin: 0 1%; /* Center the single charts with a small gap */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #fff; /* White background for the single chart */
+  padding: 15px; /* Padding inside the chart */
+}
+
+/* Ensure consistent max width */
+.chart-item {
+  max-width: 100%; /* Prevent charts from overflowing */
+}
+
+.chart-item canvas {
+  height: 200px !important; /* Set a specific height for better visibility */
+  width: 100% !important; /* Make the canvas take full width */
+  box-sizing: border-box; /* Ensure the canvas stays within the container */
+}
