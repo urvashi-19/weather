@@ -44,7 +44,7 @@ A React-based Weather Monitoring System that provides real-time weather data for
 2. **Navigate to the project directory:**
    
    ```bash
-   cd WEATH
+   cd weather
    ```
 
 3. **Install the dependencies for the server:**
