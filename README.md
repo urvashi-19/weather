@@ -70,10 +70,10 @@ A React-based Weather Monitoring System that provides real-time weather data for
    npm start
    ```
 
-6. **Install the dependencies for the client:**
+6. **Open the new powershell and install the dependencies for the client:**
 
    ```bash
-   cd ../frontend
+   cd frontend
    npm install
    ```
 
