@@ -73,6 +73,7 @@ A React-based Weather Monitoring System that provides real-time weather data for
 6. **Open the new powershell and install the dependencies for the client:**
 
    ```bash
+   cd weather
    cd frontend
    npm install
    ```
