@@ -192,7 +192,7 @@ const App = () => {
         <div className="popup">
           <div className="popup-content">
             <h3>Threshold Exceeded</h3>
-            <p>{exceededCity} has an average temperature greater than the threshold. Check console for more info!</p>
+            <p> Some cities has an average temperature greater than the threshold. Check console for more info!</p>
             <button onClick={closePopup}>Close</button>
           </div>
         </div>
